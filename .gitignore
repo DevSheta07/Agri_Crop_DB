@@ -1,0 +1,11 @@
+# Data files (too large / not meant for version control)
+data/*.csv
+backups/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# OS files
+.DS_Store
