@@ -17,6 +17,7 @@ import mysql.connector
 from mysql.connector import Error
 import os
 
+# ---------- CONFIG ----------
 DB_CONFIG = {
     "host": "localhost",
     "user": "root",
@@ -24,13 +25,6 @@ DB_CONFIG = {
     "database": "agri_crop_db"
 }
 
-# ---------- CONFIG ----------
-DB_CONFIG = {
-    "host": "localhost",
-    "user": "root",
-    "password": "22022005@Dev.",   # <-- replace with your root password
-    "database": "agri_crop_db"
-}
 
 CSV_PATH = "../data/crop_production_raw.csv"
 BATCH_SIZE = 5000
